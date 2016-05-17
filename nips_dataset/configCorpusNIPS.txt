@@ -1,0 +1,15 @@
+[SETTING]
+
+corpus_file = docword.nips.txt
+dictionary_file = vocab.nips.txt
+mat_file_name = nips_corpus
+filter_file = nips_filter.txt
+stopwords_file = stopwordsNIPS.txt
+train_fraction = .98
+validation_fraction = .01
+test_fraction = .01
+rare_word_threshold = 20
+num_topics = 50
+top_words_to_display = 20 
+alpha_0 = .01
+weight = 2

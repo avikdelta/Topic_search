@@ -1,0 +1,15 @@
+[SETTING]
+
+corpus_file = docword.nytimes.txt
+dictionary_file = vocab.nytimes.txt
+mat_file_name = nytimes_corpus
+filter_file = nytimes_filter.txt
+stopwords_file = stopwordsNYTimes.txt
+train_fraction = .9
+validation_fraction = .05
+test_fraction = .05
+rare_word_threshold = 450
+num_topics = 100
+top_words_to_display = 20 
+alpha_0 = .01
+weight = 2
