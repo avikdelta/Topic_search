@@ -14,7 +14,7 @@ Topic Modeling with Provable Guarantees", ICML 2013)
 Contact: avik@utexas.edu
 
 #######################################################################
-Files and Folder description
+Files and Folder description:
 #######################################################################
 
 fastWhitenLDA.py -- Main implementation of the Topic Search by Whitening 
@@ -94,7 +94,7 @@ offline by the Palmetto program (see instructions in the above link).
 like truncated matrix, truncated vocabulary, filter file etc.) 
 
 #######################################################################
-Config file parameter description
+Config file parameter description:
 #######################################################################   
 
 corpus_file -- Name of corpus file (UCI bag-of-words format)
