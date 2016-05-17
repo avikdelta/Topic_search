@@ -1,3 +1,15 @@
+"""
+Script containing various utility functions for
+topic search by whitening algorithm
+
+Copyright (C) 2016  Avik Ray
+
+Code by Avik Ray
+
+Contact: avik@utexas.edu
+
+"""
+
 import ConfigParser
 import os
 import numpy as np
