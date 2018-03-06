@@ -1,9 +1,9 @@
-# Topic_search
+# Fast Topic Search
+
 A python implementation of a fast practical topic search algorithm
 
 The algorithm called Topic Search by Whitening is described in the 
-paper "The Search Problem in Mixture Models"
-by Avik Ray, Joe Neeman, Sujay Sanghavi and Sanjay Shakkottai.
+paper "The Search Problem in Mixture Models" (https://arxiv.org/abs/1610.00843) by Avik Ray, Joe Neeman, Sujay Sanghavi and Sanjay Shakkottai.
 
 Copyright (C) 2016 Avik Ray
 
@@ -13,9 +13,7 @@ Topic Modeling with Provable Guarantees", ICML 2013)
 
 Contact: avik@utexas.edu
 
-#######################################################################
-Files and Folder description:
-#######################################################################
+## Files and Folder description:
 
 fastWhitenLDA.py -- Main implementation of the Topic Search by Whitening 
                     algorithm
@@ -39,12 +37,9 @@ Folder nytimes_dataset -- Contains list of stopwords and demo config
                      http://archive.ics.uci.edu/ml/datasets/Bag+of+Words
 
 
-#######################################################################
-Usage: Performing topic search via label word
-#######################################################################
-----------------------------------
-Files required in same directory:
-----------------------------------
+## Usage: Performing topic search via label word
+
+### Files required in same directory:
 
 config_file -- Test settings for topic search algorithm
                (config parameter description below)
@@ -55,15 +50,11 @@ vocab_file -- Word vocabulary for the corpus
 
 stopwords_file -- List of stopwords
 
--------------
-Environment:
--------------
+### Environment:
 
 Python 2.x with numpy, scipy 
 
--------
-Usage:
--------
+### Usage:
 
 1) Copy the above four files into the main directory 
    (e.g. for NIPS dataset all files in nips_dataset folder to main folder)
@@ -75,9 +66,7 @@ python fastWhitenLDA.py config_file label_word
 where "label_word" is a single word whose corresponding topic is 
 being searched in the document corpus.
 
---------
-Output:
---------
+### Output:
 
 The top N words (N specified in config file) in the target topic is
 saved in a text file under directory called "res" and also displayed
@@ -93,9 +82,7 @@ offline by the Palmetto program (see instructions in the above link).
 (Note that the program will also generate several intermediate files
 like truncated matrix, truncated vocabulary, filter file etc.) 
 
-#######################################################################
-Config file parameter description:
-#######################################################################   
+## Config file parameter description:
 
 corpus_file -- Name of corpus file (UCI bag-of-words format)
 
