@@ -2,7 +2,7 @@
 
 A python implementation of a fast practical topic search algorithm
 
-The algorithm called Topic Search by Whitening is described in the 
+The algorithm called Topic Search by Whitening is described in the
 paper "The Search Problem in Mixture Models" (https://arxiv.org/abs/1610.00843) by Avik Ray, Joe Neeman, Sujay Sanghavi and Sanjay Shakkottai.
 
 Copyright (C) 2016 Avik Ray
@@ -61,7 +61,9 @@ Python 2.x with numpy, scipy
 
 2) Run from shell/command prompt
 
+```
 python fastWhitenLDA.py config_file label_word
+```
 
 where "label_word" is a single word whose corresponding topic is 
 being searched in the document corpus.
