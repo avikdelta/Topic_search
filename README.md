@@ -6,7 +6,7 @@ The algorithm called Topic Search by Whitening is described in the following pap
 
 Avik Ray, Joe Neeman, Sujay Sanghavi and Sanjay Shakkottai, “The Search Problem in Mixture Models”, Journal of Machine Learning Research (JMLR), vol. 18, no. 206, pp. 1-61, April 2018. (http://www.jmlr.org/papers/volume18/16-483/16-483.pdf)
 
-Please, cite the above paper if using the code.
+Please cite the above paper if you are using the code.
 
 Copyright (C) 2016 Avik Ray
 
