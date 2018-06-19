@@ -1,10 +1,10 @@
 # Fast Topic Search
 
-A python implementation of a fast practical topic search algorithm
+A python implementation of a fast practical topic search algorithm.
 
-The algorithm called Topic Search by Whitening is described in the following paper:
+The algorithm called **Topic Search by Whitening** is described in the following paper:
 
-Avik Ray, Joe Neeman, Sujay Sanghavi and Sanjay Shakkottai, “The Search Problem in Mixture Models”, Journal of Machine Learning Research (JMLR), vol. 18, no. 206, pp. 1-61, April 2018. (http://www.jmlr.org/papers/volume18/16-483/16-483.pdf)
+Avik Ray, Joe Neeman, Sujay Sanghavi and Sanjay Shakkottai, **“The Search Problem in Mixture Models”**, Journal of Machine Learning Research (JMLR), vol. 18, no. 206, pp. 1-61, April 2018. (http://www.jmlr.org/papers/volume18/16-483/16-483.pdf)
 
 Please cite the above paper if you are using the code.
 
